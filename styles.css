@@ -6,6 +6,7 @@ html {
 h1 {
   color: hsl(0, 0%, 95%);
   font-family: 'Big Shoulders Display', sans-serif;
+  margin: 0;
 }
 p {
   color: hsla(0, 0%, 100%, 0.75);
@@ -31,7 +32,7 @@ button:hover {
 .main-wrapper {
   display: flex;
   height: 60vh;
-  margin: 15vh 35vh 15vh 35vh;
+  margin: 20vh 35vh 20vh 35vh;
 }
 .wrap {
   padding: 50px;
@@ -40,7 +41,7 @@ button:hover {
   justify-content: space-between;
 }
 .content {
-  height: 68%;
+  height: 75%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
