@@ -11,12 +11,12 @@ p {
   color: hsla(0, 0%, 100%, 0.75);
   font-size: 15px;
   font-family: 'Lexend Deca', sans-serif;
-  line-height: 1.8;
+  line-height: 1.6;
 }
 button {
   border-radius: 50px;
   border: solid 2px hsl(0, 0%, 95%);
-  width: 65%;
+  width: 75%;
   padding: 15px;
   font-size: 15px;
   font-family: 'Lexend Deca', sans-serif;
@@ -31,7 +31,7 @@ button:hover {
 .main-wrapper {
   display: flex;
   height: 60vh;
-  margin: 15vh 40vh 15vh 40vh;
+  margin: 15vh 35vh 15vh 35vh;
 }
 .wrap {
   padding: 50px;
@@ -63,8 +63,8 @@ button:hover {
 .luxury-btn {
   color: hsl(179, 100%, 13%);
 }
-.left { border-radius: 10px 0px 0px 10px; }
-.right { border-radius: 0px 10px 10px 0px; }
+.left { border-radius: 7px 0px 0px 7px; }
+.right { border-radius: 0px 7px 7px 0px; }
 
 /* mobile media queries */
 @media only screen and (max-width: 375px) {
