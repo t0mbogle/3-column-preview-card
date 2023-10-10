@@ -1,7 +1,7 @@
 /* html elements */
 html {
     background-color: hsl(0, 0%, 95%);
-    height: 100vh;
+    height: 100%;
   }
 h1 {
   color: hsl(0, 0%, 95%);
@@ -31,7 +31,7 @@ button:hover {
 .main-wrapper {
   display: flex;
   height: 60vh;
-  margin: 15vh 35vh 15vh 35vh;
+  margin: 15vh 40vh 15vh 40vh;
 }
 .wrap {
   padding: 50px;
@@ -70,6 +70,7 @@ button:hover {
 @media only screen and (max-width: 375px) {
     .main-wrapper {
         flex-direction: column;
+        height: 100%;
         margin: 5vw;
     }
     .content {
